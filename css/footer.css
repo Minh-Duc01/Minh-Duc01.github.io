@@ -1,0 +1,56 @@
+#block9{
+    background-image: url(../img/broken_noise_@2X.png);
+    height: 576px;
+    padding: 128px 105px 0 105px;
+}
+
+#block9 #contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+#block9 .col .title-block9{
+    color: white;
+    font-weight: 100;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#block9 .col .content-block9{
+    color: rgba(255, 255, 255, 0.219);
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#block9 .col a{
+    color: rgba(255, 255, 255, 0.39);
+    font-size: 17px;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+#block9 #footer-block9{
+    text-align: center;
+    margin-top: 117px;
+    font-size: 17px;
+}
+
+#block9 #footer-block9 p{
+    color: rgba(255, 255, 255, 0.39);
+    line-height: 30px;
+}
+
+#block9 #footer-block9 a{
+    text-decoration: none;
+    color: crimson;
+}
+
+#block9 #footer-block9 #icon-block9{
+    margin-top: 37px;
+}
+
+#block9 #footer-block9 #icon-block9 i{
+    margin: 0 10px;
+    color: crimson;
+    font-size: 20px;
+}

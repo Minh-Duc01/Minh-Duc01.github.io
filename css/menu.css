@@ -1,0 +1,186 @@
+ /* tiêu đề */
+ .title{
+    background: url(../img/hero_1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 625px;
+}
+
+.title #filter{
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    text-align: center;
+    height: 625px;
+}
+
+.title h1{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.title h1#first{
+    padding-top: 200px;
+    font-size: 90px;
+}
+
+.title h1#secound{
+    font-weight: 100;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.title h1#secound span{
+    border-bottom: 2px solid crimson;
+    padding-bottom: 3px;
+}
+
+/* block2 */
+#block2,#block4,#block6,#block7{
+    padding: 127px 0;
+    background-image: url(../img/broken_noise_@2X.png);    
+}
+
+#block2 h1,#block4 h1{
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+    margin-left: 105px;
+}
+
+#block2 .par,#block4 .par{
+    font-size: 17px;
+    font-weight: 100;
+    margin: 20px 0 0 100px;
+    line-height: 30px;
+    width: 550px;
+    color: rgba(255, 255, 255, 0.274);
+}
+
+/* block3 */
+#block3{
+    padding: 127px 111px;
+    background-image: url(../img/broken_noise_@2X.png);
+    display: flex;
+    justify-content: center;
+}
+
+#block3 .item{
+    width: 252px;
+    margin: 0 20px;
+}
+
+#block3 .item .no1{
+    padding-top: 100px;
+}
+
+#block3 img{
+    width: 252px;
+    height: 167px;
+}
+
+#block3 h1{
+    color: white;
+    margin: 20px 0;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.par{
+    font-size: 17px;
+    font-weight: 100;
+    margin: 20px 0;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.274);
+}
+
+#block3 #price{
+    display: flex;
+    color: #FAE455;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#block3 #price #price1{
+    padding-top: 10px;
+}
+
+#block3 #price #price2{
+    padding-top: 5px;
+    font-size: 19px;
+}
+
+/* block5 */
+#block5{
+    background-image: url(../img/broken_noise_@2X.png);
+    padding: 50px 0;
+    display: flex;
+}
+
+#block5 img{
+    margin-left: 105px;
+    width: 800px;
+    height: 725px;
+}
+
+#block5 #content{
+    margin-top: 130px;
+    margin-left: -290px;
+}
+
+#block5 #content p{
+    width: 574px;
+    color: white;
+    font-size: 34px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 50px;
+}
+
+#block5 #content h4{
+    font-size: 30px;
+    font-style: italic;
+    color: #BDBAC4;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+/* block8 */
+#block8{
+    background-image: url(../img/hero_1.jpeg);
+    height: 550px;
+    background-size: 100%;
+    background-repeat: no-repeat;    
+}
+
+#block8 #filter{
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 550px;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+#block8 #filter h1{
+    font-size: 30px;
+    font-style: italic;
+}
+
+#block8 #filter p{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+#block8 #filter a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid red;
+}
+
+#block8 #filter a:hover{
+    background-color: crimson;
+}

@@ -1,0 +1,119 @@
+/* tiêu đề */
+.title{
+    background: url(../img/hero_1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 625px;
+}
+
+.title{
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    text-align: center;
+    height: 625px;
+}
+
+.title h1{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.title h1#first{
+    padding-top: 200px;
+    font-size: 90px;
+}
+
+.title h1#secound{
+    font-weight: 100;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.title h1#secound span{
+    border-bottom: 2px solid crimson;
+    padding-bottom: 3px;
+}
+
+/* block1 */
+#block1{
+    background-image: url(../img/broken_noise_@2X.png);
+    padding: 70px 0;
+    text-align: center;
+}
+
+#block1 h1{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+#block1 p{
+    font-size: 18px;
+    margin: 40px 0;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.349);
+}
+
+#block1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid crimson;
+}
+
+#block1 a:hover{
+    background-color: crimson;
+}
+
+/* block3 */
+#block3{
+    padding: 127px 50px;
+    background-image: url(../img/broken_noise_@2X.png);
+}
+
+#block3 #form{
+    width: 553px;
+    margin-left: 48%;
+    /* height: 474px; */
+    border: 4px solid rgba(128, 128, 128, 0.123);
+    padding: 40px 30px;
+    color: white;
+}
+
+#block3 label{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#block3 .input{
+    width: 487px;
+    height: 53px;
+    border: 3px solid rgba(128, 128, 128, 0.699);
+    border-radius: 3px;
+    background: none;
+    margin: 10px 0 40px 0;
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+#form #message{
+    height: 307px;
+    padding-top: 20px;
+}
+
+#form #submit{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+    background: none;
+    border: 2px solid crimson;
+    padding: 10px 35px;
+}
+
+#form #submit:hover{
+    background-color: crimson;
+}
